@@ -8,6 +8,7 @@
 // @grant        clipboardWrite
 // ==/UserScript==
 
+
 (function() {
     'use strict';
 
