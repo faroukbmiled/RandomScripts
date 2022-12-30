@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name        Click on most recent link altenens
-// @namespace   None
+// @namespace   https://github.com/
 // @match *://altenens.is/forums/*
 // @version     2.0
 // @author      Ryuk
@@ -11,7 +11,6 @@
 (function() {
     'use strict';
 
-    // Get the time element with the text "A moment ago"
     let targetTimeElement = null;
     const timeElements = document.querySelectorAll('time.u-dt:not([class*=" "])');
     timeElements.forEach(timeElement => {

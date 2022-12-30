@@ -1,8 +1,7 @@
 // ==UserScript==
 // @name        Auto copy example
-// @namespace   none
+// @namespace   https://github.com/
 // @match *://altenens.is/threads*
-// @grant       none
 // @version     1.5
 // @author      Ryuk
 // @description Copies the first 3/5 and 16-digit numbers found on the page to the clipboard
