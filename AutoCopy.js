@@ -2,7 +2,7 @@
 // @name         Auto copy example
 // @namespace    github.com
 // @version      1.5
-// @description  Copies the first 3/5 and 16-digit numbers found on the page to the clipboard
+// @description  Copies digits to clipboard history respectively 
 // @author       Ryuk
 // @match        *://altenens.is/forums/*
 // @grant        clipboardWrite
