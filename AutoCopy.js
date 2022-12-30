@@ -1,12 +1,11 @@
 // ==UserScript==
-// @name        Auto copy example
-// @namespace   https://github.com/
-// @match *://altenens.is/threads*
-// @version     1.5
-// @author      Ryuk
-// @description Copies the first 3/5 and 16-digit numbers found on the page to the clipboard
-// @grant clipboardWrite
-// @require https://cdn.jsdelivr.net/npm/clipboard@2/dist/clipboard.min.js
+// @name         Auto copy example
+// @namespace    github.com
+// @version      1.5
+// @description  Copies the first 3/5 and 16-digit numbers found on the page to the clipboard
+// @author       Ryuk
+// @match        *://altenens.is/forums/*
+// @grant        clipboardWrite
 // ==/UserScript==
 
 (function() {
