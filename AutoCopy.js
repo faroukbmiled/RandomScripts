@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name        Copy card info "altenens"
+// @name        Random script
 // @match *://altenens.is/threads*
 // @grant       none
 // @version     1.5
