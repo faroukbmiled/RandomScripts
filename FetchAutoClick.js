@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name        Click on most recent link, random poc script
+// @name        Click on most recent link ("""random poc""")
 // @namespace   None
 // @match *://altenens.is/forums/*
 // @version     4.0
@@ -14,8 +14,9 @@
     let targetTimeElement = null;
     let dataTimeValue = null;
     let lastCheckedDataTimeValue = null;
-    setInterval(() => {
-        fetch('urlinkhere',{cache: 'no-store'})
+
+    function fetchAndCheckData() {
+        fetch('urlink',{cache: 'no-store'})
             .then(response => response.text())
             .then(data => {
                 let parser = new DOMParser();
@@ -35,6 +36,8 @@
                         }
                     }
                 }
+                fetchAndCheckData();
             });
-    }, 500);
+    }
+    fetchAndCheckData();
 })();
