@@ -1,13 +1,12 @@
 // ==UserScript==
-// @name         Click on most recent link altenens
-// @namespace    github.com
-// @version      2.0
-// @description  Opens the link with the "A moment ago" time element in a new tab and focuses on the window
-// @author       Ryuk
-// @match        *://altenens.is/forums/*
-// @grant        window.focus
+// @name        Click on most recent link, and reload (random poc)
+// @namespace   None
+// @match *://altenens.is/forums/*
+// @version     2.0
+// @author      Ryuk
+// @grant       window.focus
+// @description Opens the link with the "A moment ago" time element in a new tab and focuses on the window
 // ==/UserScript==
-
 
 (function() {
     'use strict';
@@ -34,4 +33,5 @@
             }
         }
     }
+    location.reload();
 })();
