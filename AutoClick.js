@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name        Click on most recent link, and reload (random poc)
 // @namespace   None
-// @match *://altenens.is/forums/*
+// @match *://link/*
 // @version     2.0
 // @author      Ryuk
 // @grant       window.focus

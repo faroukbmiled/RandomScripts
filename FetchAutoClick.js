@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name        Click on most recent link altenens
 // @namespace   None
-// @match *://altenens.is/forums/*
+// @match *://link/*
 // @version     4.0
 // @author      Ryuk
 // @grant       window.focus
@@ -15,7 +15,7 @@
     let lastCheckedDataTimeValue = null;
 
     function fetchAndCheckData() {
-        fetch('https://altenens.is/forums/accounts-and-database-dumps.45/?order=post_date&direction=desc', { cache: 'no-store' })
+        fetch('*://link/*', { cache: 'no-store' })
             .then(response => response.text())
             .then(data => {
                 let parser = new DOMParser();
